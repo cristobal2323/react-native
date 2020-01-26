@@ -2,7 +2,7 @@ const BASE_API = 'https://pokeapi.co/api/v2/';
 
 class Api {
   async getSuggestion(id) {
-    const query = await fetch(`${BASE_API}pokemon`);
+    const query = await fetch(`${BASE_API}pokemon?limit=5`);
     const data = await query.json();
 
     const arrPokemon = [];
@@ -37,7 +37,7 @@ class Api {
     return datasourcesAll;
   }
   async getMovies() {
-    const query = await fetch(`${BASE_API}item`);
+    const query = await fetch(`${BASE_API}item?limit=5`);
     const data = await query.json();
 
     const arrPokemon = [];
