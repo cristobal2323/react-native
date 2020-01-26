@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import {Provider} from 'react-redux';
-import store from './store';
+import {PersistGate} from 'redux-persist/integration/react';
+import {store, persistor} from './store';
 
 import Home from './src/screens/containers/home';
 import Header from './src/sections/components/header';
@@ -35,14 +36,15 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Provider store={store}>
-        <Home>
-          <Header />
-          <Player />
-          <Text>buscador</Text>
-          <Text>categorías</Text>
-          <CategoryList />
-          <SuggestionList />
-        </Home>
+        <PersistGate loading={<Text>cargando...</Text>} persistor={persistor}>
+          <Home>
+            <Header />
+            <Player />
+            <Text>buscador</Text>
+            <CategoryList />
+            <SuggestionList />
+          </Home>
+        </PersistGate>
       </Provider>
     );
   }
