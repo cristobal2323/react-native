@@ -1,12 +1,20 @@
 import React, {Component} from 'react';
 import {TextInput, StyleSheet} from 'react-native';
+import {connect} from 'react-redux';
+import API from '../../../utils/api';
 
 class Search extends Component {
   state = {
     text: '',
   };
-  handleSubmit = () => {
-    console.log(this.state.text);
+  handleSubmit = async () => {
+    const movie = await API.searchPokemon(this.state.text);
+    this.props.dispatch({
+      type: 'SET_SELECTED_MOVIE',
+      payload: {
+        movie,
+      },
+    });
   };
   handleChangeText = text => {
     this.setState({
@@ -37,4 +45,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Search;
+export default connect(null)(Search);

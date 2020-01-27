@@ -71,6 +71,13 @@ class Api {
 
     return datasourcesAll;
   }
+
+  async searchPokemon(id) {
+    const query = await fetch(`${BASE_API}pokemon/${id}?limit=5`);
+    const data = await query.json();
+
+    return data;
+  }
 }
 
 export default new Api();
