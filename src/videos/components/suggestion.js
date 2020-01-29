@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     resizeMode: 'contain',
   },
   left: {
-    backgroundColor: 'black',
+    backgroundColor: '#805353',
   },
   right: {
     paddingLeft: 10,

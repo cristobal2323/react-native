@@ -11,12 +11,19 @@ class Movie extends Component {
   state = {
     opacity: new Animated.Value(0),
   };
-  componentDidMount() {
-    Animated.timing(this.state.opacity, {
-      toValue: 1,
-      duration: 1000,
-    }).start();
-  }
+  static navigationOptions = ({navigation}) => {
+    return {
+      header: () => (
+        <Header>
+          <Close
+            onPress={() => {
+              navigation.goBack();
+            }}
+          />
+        </Header>
+      ),
+    };
+  };
   closeVideo = () => {
     this.props.dispatch({
       type: 'SET_SELECTED_MOVIE',
@@ -25,6 +32,12 @@ class Movie extends Component {
       },
     });
   };
+  componentDidMount() {
+    Animated.timing(this.state.opacity, {
+      toValue: 1,
+      duration: 1000,
+    }).start();
+  }
   render() {
     return (
       <Animated.View
@@ -33,9 +46,6 @@ class Movie extends Component {
           opacity: this.state.opacity,
         }}>
         <MovieLayout>
-          <Header>
-            <Close onPress={this.closeVideo} />
-          </Header>
           <Player />
           <Details {...this.props.movie} />
         </MovieLayout>
@@ -46,7 +56,7 @@ class Movie extends Component {
 
 function mapStateToProps(state) {
   return {
-    movie: state.selectedMovie,
+    movie: state.video.selectedMovie,
   };
 }
 

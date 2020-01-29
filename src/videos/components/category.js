@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   wrapper: {
     width: 100,
     height: 100,
-    backgroundColor: '#000',
+    backgroundColor: '#805353',
     borderRadius: 10,
     overflow: 'hidden',
     justifyContent: 'center',

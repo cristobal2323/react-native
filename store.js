@@ -9,7 +9,7 @@ const persistConfig = {
   key: 'root',
   keyPrefix: '',
   storage: AsyncStorage,
-  blacklist: ['selectedMovie'],
+  blacklist: ['navegation'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducer);

@@ -8,7 +8,7 @@ import {connect} from 'react-redux';
 
 function mapStateToProps(state) {
   return {
-    list: state.categoryList,
+    list: state.video.categoryList,
   };
 }
 
