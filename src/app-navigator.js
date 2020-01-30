@@ -1,6 +1,7 @@
 import React from 'react';
-import {createAppContainer} from 'react-navigation';
+import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator, TransitionPresets} from 'react-navigation-stack';
+import {createBottomTabNavigator, BottomTabBar} from 'react-navigation-tabs';
 import Home from './screens/containers/home';
 import Movie from './screens/containers/movie';
 import Category from './screens/containers/category';
@@ -8,7 +9,8 @@ import About from './screens/containers/about';
 import Profile from './screens/containers/profile';
 import Lucky from './screens/containers/lucky';
 import Icon from './sections/components/icon';
-import {createBottomTabNavigator, BottomTabBar} from 'react-navigation-tabs';
+import Login from './screens/containers/login';
+import Loading from './screens/containers/loading';
 
 const Main = createStackNavigator(
   {
@@ -58,6 +60,17 @@ const TabNavigator = createBottomTabNavigator(
   },
 );
 
-const MainContainer = createAppContainer(TabNavigator);
+const SwitchNavigator = createSwitchNavigator(
+  {
+    Loading: Loading,
+    App: TabNavigator,
+    Login: Login,
+  },
+  {
+    initialRouteName: 'Loading',
+  },
+);
+
+const MainContainer = createAppContainer(SwitchNavigator);
 
 export default MainContainer;
