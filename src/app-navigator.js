@@ -2,6 +2,9 @@ import React from 'react';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import {createStackNavigator, TransitionPresets} from 'react-navigation-stack';
 import {createBottomTabNavigator, BottomTabBar} from 'react-navigation-tabs';
+import {createDrawerNavigator} from 'react-navigation-drawer';
+import DrawerComponent from './sections/components/drawer';
+
 import Home from './screens/containers/home';
 import Movie from './screens/containers/movie';
 import Category from './screens/containers/category';
@@ -60,10 +63,49 @@ const TabNavigator = createBottomTabNavigator(
   },
 );
 
+const DrawerNavigator = createDrawerNavigator(
+  {
+    Main: {
+      screen: TabNavigator,
+      navigationOptions: {
+        title: 'Inicio',
+        drawerIcon: <Icon icon="🏠" />,
+      },
+    },
+    Sobre: {
+      screen: About,
+    },
+    Suerte: {
+      screen: Lucky,
+    },
+  },
+  {
+    drawerWidth: 200,
+    drawerBackgroundColor: '#f6f6f6',
+    contentComponent: DrawerComponent,
+    contentOptions: {
+      activeBackgroundColor: '#7aba2f',
+      activeTintColor: 'white',
+      inactiveTintColor: '#828282',
+      inactiveBackgroundColor: 'white',
+      itemStyle: {
+        borderBottomWidth: 0.5,
+        borderBottomColor: 'rgba(0,0,0,.5)',
+      },
+      labelStyle: {
+        marginHorizontal: 0,
+      },
+      iconContainerStyle: {
+        marginHorizontal: 5,
+      },
+    },
+  },
+);
+
 const SwitchNavigator = createSwitchNavigator(
   {
     Loading: Loading,
-    App: TabNavigator,
+    App: DrawerNavigator,
     Login: Login,
   },
   {

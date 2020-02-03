@@ -8,6 +8,7 @@ class Lucky extends Component {
     return {
       title: 'Voy a tener suerte',
       tabBarIcon: <Icon icon="⭐️" />,
+      drawerIcon: <Icon icon="⭐️" />,
     };
   };
   componentDidMount() {

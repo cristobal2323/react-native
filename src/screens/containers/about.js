@@ -7,6 +7,7 @@ class About extends Component {
     return {
       title: 'Sobre esta app',
       tabBarIcon: <Icon icon="🤓" />,
+      drawerIcon: <Icon icon="🤓" />,
     };
   };
   componentDidMount() {
