@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* platziVideoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* platziVideoAppTests.m */; };
 		5C866A9BFA86DB377AB2FFAF /* libPods-platziVideoApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C79D1333A8C9363F94D30D96 /* libPods-platziVideoApp-tvOSTests.a */; };
 		5E7A61AA59349319D53DC27A /* libPods-platziVideoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758198C00816B83A934E2880 /* libPods-platziVideoAppTests.a */; };
+		6F8F6F4023E9FF08000EBD42 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F6F3F23E9FF07000EBD42 /* www */; };
 		8A3C38AE102F4389B615A077 /* libPods-platziVideoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F1393F36FA96F1F1F93A9 /* libPods-platziVideoApp.a */; };
 		F7DB54F4D3125CE113B5969D /* libPods-platziVideoApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3B0A8AE718A9B8C94E3549 /* libPods-platziVideoApp-tvOS.a */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		2D02E47B1E0B4A5D006451C7 /* platziVideoApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "platziVideoApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* platziVideoApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "platziVideoApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3B0A8AE718A9B8C94E3549 /* libPods-platziVideoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8F6F3F23E9FF07000EBD42 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = platziVideoApp/www; sourceTree = "<group>"; };
 		736AB5D47B4AA48A6B81C8E6 /* Pods-platziVideoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		758198C00816B83A934E2880 /* libPods-platziVideoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AD437F16A4D12F0DB88C8B /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* platziVideoApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F8F6F3F23E9FF07000EBD42 /* www */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -194,7 +197,6 @@
 				984D124BFB4F103C85AE8185 /* Pods-platziVideoAppTests.debug.xcconfig */,
 				159FECE4049A5E2EC59A6E98 /* Pods-platziVideoAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -336,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8F6F4023E9FF08000EBD42 /* www in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
