@@ -16,11 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* platziVideoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* platziVideoAppTests.m */; };
-		5C866A9BFA86DB377AB2FFAF /* libPods-platziVideoApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C79D1333A8C9363F94D30D96 /* libPods-platziVideoApp-tvOSTests.a */; };
-		5E7A61AA59349319D53DC27A /* libPods-platziVideoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758198C00816B83A934E2880 /* libPods-platziVideoAppTests.a */; };
-		6F8F6F4023E9FF08000EBD42 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 6F8F6F3F23E9FF07000EBD42 /* www */; };
-		8A3C38AE102F4389B615A077 /* libPods-platziVideoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 020F1393F36FA96F1F1F93A9 /* libPods-platziVideoApp.a */; };
-		F7DB54F4D3125CE113B5969D /* libPods-platziVideoApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3B0A8AE718A9B8C94E3549 /* libPods-platziVideoApp-tvOS.a */; };
+		5295FF5FEB02F8BB24AE4FD9 /* libPods-platziVideoApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E2D36605A41963D53900AD /* libPods-platziVideoApp.a */; };
+		7901EC9FC81142853801809F /* libPods-platziVideoApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD24BA17696B718822786988 /* libPods-platziVideoApp-tvOS.a */; };
+		BD072DC07C7839004E801AB2 /* libPods-platziVideoAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA68AC02F9BA57F10990A1C /* libPods-platziVideoAppTests.a */; };
+		CEFCCB5C68E5962AD3E2EC82 /* libPods-platziVideoApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0359408A39345303612317 /* libPods-platziVideoApp-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,7 @@
 		00E356EE1AD99517003FC87E /* platziVideoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platziVideoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* platziVideoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = platziVideoAppTests.m; sourceTree = "<group>"; };
-		020F1393F36FA96F1F1F93A9 /* libPods-platziVideoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0415E4A16D662A26FC6BAD37 /* Pods-platziVideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp/Pods-platziVideoApp.release.xcconfig"; sourceTree = "<group>"; };
+		0EA68AC02F9BA57F10990A1C /* libPods-platziVideoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* platziVideoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platziVideoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = platziVideoApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = platziVideoApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,21 +52,21 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = platziVideoApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = platziVideoApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = platziVideoApp/main.m; sourceTree = "<group>"; };
-		158B867DBC4152314C9DBB4B /* Pods-platziVideoApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOS/Pods-platziVideoApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		159FECE4049A5E2EC59A6E98 /* Pods-platziVideoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoAppTests.release.xcconfig"; path = "Target Support Files/Pods-platziVideoAppTests/Pods-platziVideoAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* platziVideoApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "platziVideoApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* platziVideoApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "platziVideoApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C3B0A8AE718A9B8C94E3549 /* libPods-platziVideoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F8F6F3F23E9FF07000EBD42 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = platziVideoApp/www; sourceTree = "<group>"; };
-		736AB5D47B4AA48A6B81C8E6 /* Pods-platziVideoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		758198C00816B83A934E2880 /* libPods-platziVideoAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AD437F16A4D12F0DB88C8B /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		984D124BFB4F103C85AE8185 /* Pods-platziVideoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoAppTests/Pods-platziVideoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C79D1333A8C9363F94D30D96 /* libPods-platziVideoApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1EF76F84E07E01C45CA0F51 /* Pods-platziVideoApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOS/Pods-platziVideoApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5C0359408A39345303612317 /* libPods-platziVideoApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC53AC560D1EF144719EBF4 /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A827F585778A4D715D85782 /* Pods-platziVideoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoAppTests.release.xcconfig"; path = "Target Support Files/Pods-platziVideoAppTests/Pods-platziVideoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		88FB824FB716D9C519988F53 /* Pods-platziVideoApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOS/Pods-platziVideoApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		AD24BA17696B718822786988 /* libPods-platziVideoApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FF9522C86DC604BA2C6666 /* Pods-platziVideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp/Pods-platziVideoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CAE844459F030623A01F295D /* Pods-platziVideoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoAppTests/Pods-platziVideoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E93ABE52D33130242388F658 /* Pods-platziVideoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp/Pods-platziVideoApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F9CAB18AD8C290B73A289768 /* Pods-platziVideoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp/Pods-platziVideoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E2D36605A41963D53900AD /* libPods-platziVideoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-platziVideoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC9DA9EBBF3D22B696BCC69 /* Pods-platziVideoApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOS/Pods-platziVideoApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE234AEDC3C854DEF5E47F8B /* Pods-platziVideoApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platziVideoApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-platziVideoApp-tvOSTests/Pods-platziVideoApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E7A61AA59349319D53DC27A /* libPods-platziVideoAppTests.a in Frameworks */,
+				BD072DC07C7839004E801AB2 /* libPods-platziVideoAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3C38AE102F4389B615A077 /* libPods-platziVideoApp.a in Frameworks */,
+				5295FF5FEB02F8BB24AE4FD9 /* libPods-platziVideoApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DB54F4D3125CE113B5969D /* libPods-platziVideoApp-tvOS.a in Frameworks */,
+				7901EC9FC81142853801809F /* libPods-platziVideoApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C866A9BFA86DB377AB2FFAF /* libPods-platziVideoApp-tvOSTests.a in Frameworks */,
+				CEFCCB5C68E5962AD3E2EC82 /* libPods-platziVideoApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +125,6 @@
 		13B07FAE1A68108700A75B9A /* platziVideoApp */ = {
 			isa = PBXGroup;
 			children = (
-				6F8F6F3F23E9FF07000EBD42 /* www */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -144,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				020F1393F36FA96F1F1F93A9 /* libPods-platziVideoApp.a */,
-				3C3B0A8AE718A9B8C94E3549 /* libPods-platziVideoApp-tvOS.a */,
-				C79D1333A8C9363F94D30D96 /* libPods-platziVideoApp-tvOSTests.a */,
-				758198C00816B83A934E2880 /* libPods-platziVideoAppTests.a */,
+				F6E2D36605A41963D53900AD /* libPods-platziVideoApp.a */,
+				AD24BA17696B718822786988 /* libPods-platziVideoApp-tvOS.a */,
+				5C0359408A39345303612317 /* libPods-platziVideoApp-tvOSTests.a */,
+				0EA68AC02F9BA57F10990A1C /* libPods-platziVideoAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,14 +185,14 @@
 		9E3B1C32A33D882DD1DC3F0F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9CAB18AD8C290B73A289768 /* Pods-platziVideoApp.debug.xcconfig */,
-				0415E4A16D662A26FC6BAD37 /* Pods-platziVideoApp.release.xcconfig */,
-				158B867DBC4152314C9DBB4B /* Pods-platziVideoApp-tvOS.debug.xcconfig */,
-				D1EF76F84E07E01C45CA0F51 /* Pods-platziVideoApp-tvOS.release.xcconfig */,
-				91AD437F16A4D12F0DB88C8B /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */,
-				736AB5D47B4AA48A6B81C8E6 /* Pods-platziVideoApp-tvOSTests.release.xcconfig */,
-				984D124BFB4F103C85AE8185 /* Pods-platziVideoAppTests.debug.xcconfig */,
-				159FECE4049A5E2EC59A6E98 /* Pods-platziVideoAppTests.release.xcconfig */,
+				B9FF9522C86DC604BA2C6666 /* Pods-platziVideoApp.debug.xcconfig */,
+				E93ABE52D33130242388F658 /* Pods-platziVideoApp.release.xcconfig */,
+				FDC9DA9EBBF3D22B696BCC69 /* Pods-platziVideoApp-tvOS.debug.xcconfig */,
+				88FB824FB716D9C519988F53 /* Pods-platziVideoApp-tvOS.release.xcconfig */,
+				5EC53AC560D1EF144719EBF4 /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */,
+				FE234AEDC3C854DEF5E47F8B /* Pods-platziVideoApp-tvOSTests.release.xcconfig */,
+				CAE844459F030623A01F295D /* Pods-platziVideoAppTests.debug.xcconfig */,
+				7A827F585778A4D715D85782 /* Pods-platziVideoAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -207,7 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "platziVideoAppTests" */;
 			buildPhases = (
-				7EEA29557B981CD0C253075D /* [CP] Check Pods Manifest.lock */,
+				B33B943041A3E292B26461A0 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -226,7 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "platziVideoApp" */;
 			buildPhases = (
-				2B6EC62055EC63931F83D902 /* [CP] Check Pods Manifest.lock */,
+				41745FDAE7F9B48FC7070A74 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -246,7 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "platziVideoApp-tvOS" */;
 			buildPhases = (
-				EC16C776DC1123473ADC2A8D /* [CP] Check Pods Manifest.lock */,
+				FC816EDF3ED3CA74CC0B2F62 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "platziVideoApp-tvOSTests" */;
 			buildPhases = (
-				1D25CBC2596C70314D65AC59 /* [CP] Check Pods Manifest.lock */,
+				57B2B450A5C1F04A2633B9AC /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -339,7 +336,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8F6F4023E9FF08000EBD42 /* www in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -377,29 +373,21 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1D25CBC2596C70314D65AC59 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-platziVideoApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2B6EC62055EC63931F83D902 /* [CP] Check Pods Manifest.lock */ = {
+		41745FDAE7F9B48FC7070A74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,21 +409,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		57B2B450A5C1F04A2633B9AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Bundle React Native Code And Images";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-platziVideoApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-		7EEA29557B981CD0C253075D /* [CP] Check Pods Manifest.lock */ = {
+		B33B943041A3E292B26461A0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +453,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC16C776DC1123473ADC2A8D /* [CP] Check Pods Manifest.lock */ = {
+		FC816EDF3ED3CA74CC0B2F62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -584,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 984D124BFB4F103C85AE8185 /* Pods-platziVideoAppTests.debug.xcconfig */;
+			baseConfigurationReference = CAE844459F030623A01F295D /* Pods-platziVideoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -607,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 159FECE4049A5E2EC59A6E98 /* Pods-platziVideoAppTests.release.xcconfig */;
+			baseConfigurationReference = 7A827F585778A4D715D85782 /* Pods-platziVideoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -627,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9CAB18AD8C290B73A289768 /* Pods-platziVideoApp.debug.xcconfig */;
+			baseConfigurationReference = B9FF9522C86DC604BA2C6666 /* Pods-platziVideoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -647,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0415E4A16D662A26FC6BAD37 /* Pods-platziVideoApp.release.xcconfig */;
+			baseConfigurationReference = E93ABE52D33130242388F658 /* Pods-platziVideoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -666,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 158B867DBC4152314C9DBB4B /* Pods-platziVideoApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FDC9DA9EBBF3D22B696BCC69 /* Pods-platziVideoApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -694,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1EF76F84E07E01C45CA0F51 /* Pods-platziVideoApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 88FB824FB716D9C519988F53 /* Pods-platziVideoApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -722,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91AD437F16A4D12F0DB88C8B /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5EC53AC560D1EF144719EBF4 /* Pods-platziVideoApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -749,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 736AB5D47B4AA48A6B81C8E6 /* Pods-platziVideoApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FE234AEDC3C854DEF5E47F8B /* Pods-platziVideoApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
